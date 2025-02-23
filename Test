@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Major Events of the American Revolution</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #3d2ec1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f38d08;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 800px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #2E86C1;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Major Events of the American Revolution</h1>
+  </header>
+  <nav>
+    <a href="#lexington-concord">Lexington & Concord</a>
+    <a href="#battle-of-monmouth">Battle of Monmouth</a>
+    <a href="#bunker-hill">Bunker Hill</a>
+    <a href="#declaration">Declaration of Independence</a>
+    <a href="#saratoga">Battle of Saratoga</a>
+    <a href="#yorktown">Yorktown</a>
+    <a href="#treaty">Treaty of Paris</a>
+  </nav>
+  <section id="lexington-concord">
+    <h2>Battles of Lexington and Concord (1775)</h2>
+    <p>
+      The first military engagements of the American Revolutionary War, these battles marked the outbreak of armed conflict between the Kingdom of Great Britain and its thirteen colonies in America. Famously known for the "shot heard 'round the world," these skirmishes set the stage for the full-blown revolution.
+    </p>
+  </section>
+  <section id="battle-of-monmouth">
+    <h2>Battle of Monmouth (1778)</h2>
+    <p>
+        The Battle of Monmouth, fought in June 1778 in New Jersey, was one of the longest and most fiercely contested battles of the American Revolution. Despite the intense heat and challenging conditions, the battle ended inconclusively, showcasing the improved training and discipline of the Continental Army following their winter at Valley Forge.
+    </p>
+    </p>
+  </section>
+  <section id="bunker-hill">
+    <h2>Battle of Bunker Hill (1775)</h2>
+    <p>
+      Although technically a British victory, the Battle of Bunker Hill demonstrated that colonial forces could stand up to the British army. The high casualties suffered by the British bolstered American confidence and set the tone for future resistance.
+    </p>
+  </section>
+  <section id="declaration">
+    <h2>Declaration of Independence (1776)</h2>
+    <p>
+      On July 4, 1776, the Continental Congress adopted the Declaration of Independence, officially announcing the colonies' break from British rule. This historic document outlined the principles of liberty and the right to self-govern, influencing future democratic movements worldwide.
+    </p>
+  </section>
+  <section id="saratoga">
+    <h2>Battle of Saratoga (1777)</h2>
+    <p>
+      Considered a turning point in the Revolutionary War, the American victory at Saratoga convinced France to enter the war on the side of the Americans. This alliance provided critical military support and helped shift the balance of power.
+    </p>
+  </section>
+  <section id="yorktown">
+    <h2>Siege of Yorktown (1781)</h2>
+    <p>
+      The Siege of Yorktown culminated in a decisive American and French victory that forced the surrender of a major British army. This event effectively ended large-scale fighting in the colonies and paved the way for negotiations to end the war.
+    </p>
+  </section>
+  <section id="treaty">
+    <h2>Treaty of Paris (1783)</h2>
+    <p>
+      The Revolutionary War formally ended with the signing of the Treaty of Paris in 1783. The treaty recognized American independence and established borders for the new nation, marking the birth of the United States of America.
+    </p>
+  </section>
+  <footer>
+    <p>&copy; 2025 American Revolution History</p>
+  </footer>
+</body>
+</html>
