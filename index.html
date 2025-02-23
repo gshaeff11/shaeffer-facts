@@ -6,73 +6,91 @@
     <title>ShaefferFacts.com - Home</title>
     <style>
         body {
-            background-color: #ff0000;
-            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ff0000, #ff6600);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             color: white;
+            margin: 0;
+            padding: 0;
         }
         h1 {
-            font-size: 3em;
-            text-shadow: 3px 3px 5px black;
+            font-size: 4em;
+            text-shadow: 5px 5px 10px black;
+            padding: 20px;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
         }
         .container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
+            gap: 30px;
+            padding: 30px;
         }
         .card {
-            background-color: white;
+            background: white;
             color: black;
-            border-radius: 15px;
-            padding: 15px;
-            width: 250px;
-            box-shadow: 5px 5px 10px black;
+            border-radius: 20px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 10px 10px 15px black;
             text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.1);
         }
         .card img {
             width: 100%;
-            border-radius: 10px;
+            border-radius: 15px;
+            border: 4px solid red;
         }
         .card a {
-            display: block;
-            margin-top: 10px;
-            background-color: red;
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #ff6600;
             color: white;
-            padding: 10px;
-            border-radius: 10px;
+            padding: 12px 20px;
+            border-radius: 12px;
             text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .card a:hover {
+            background-color: #ff3300;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to ShaefferFacts.com</h1>
+    <h1>🔥 Welcome to ShaefferFacts.com! 🔥</h1>
     <div class="container">
         <div class="card">
-            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/refs/heads/main/computer_science.jpg.webp" alt="Computer Science">
+            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/main/computer_science.jpg" alt="Computer Science">
             <h2>Computer Science</h2>
-            <a href="computer_science.html">Learn More</a>
+            <a href="computer_science.html">Explore 🚀</a>
         </div>
         <div class="card">
-            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/refs/heads/main/geology.jpg.webp" alt="Geology">
+            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/main/geology.jpg" alt="Geology">
             <h2>Geology</h2>
-            <a href="geology.html">Learn More</a>
+            <a href="geology.html">Discover 🌎</a>
         </div>
         <div class="card">
-            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/refs/heads/main/guns.jpg.webp" alt="Guns">
+            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/main/guns.jpg" alt="Guns">
             <h2>Guns</h2>
-            <a href="guns.html">Learn More</a>
+            <a href="guns.html">Learn More 🎯</a>
         </div>
         <div class="card">
-            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/refs/heads/main/helicopters.jpg.webp" alt="Helicopters">
+            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/main/helicopters.jpg" alt="Helicopters">
             <h2>Helicopters</h2>
-            <a href="helicopters.html">Learn More</a>
+            <a href="helicopters.html">Fly High 🚁</a>
         </div>
         <div class="card">
-            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/refs/heads/main/planes.jpg.webp" alt="Planes">
+            <img src="https://raw.githubusercontent.com/gshaeff11/shaeffer-facts/main/planes.jpg" alt="Planes">
             <h2>Planes</h2>
-            <a href="planes.html">Learn More</a>
+            <a href="planes.html">Take Off ✈️</a>
         </div>
     </div>
 </body>
